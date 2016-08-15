@@ -140,7 +140,7 @@
 
 .kot {
     --background-color: #F3F1F1;
-    min-height: 200px;
+    min-height: 300px;
     color: black;
     font-family: lato;
     padding: 20px;
@@ -148,7 +148,7 @@
 
 .textt {
     padding: 20px 0;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .ecg {
@@ -173,7 +173,7 @@
 .ts {
     color: #fff;
     font-family: lato;
-    font-size: 14pt;
+    font-size: 18pt;
     padding: 70px;
 }
 
@@ -218,6 +218,7 @@
 .btnk {
     margin: 20px;
     float: right;
+    font-size: 16pt;
 }
 
 .vbb25 {
@@ -226,15 +227,15 @@
     -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .vbb25 input {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 textarea {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .kot1 {
@@ -264,7 +265,7 @@ textarea {
 }
 
 .fvv {
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: center;
     padding-top: 0px;
     color: #fff;
@@ -290,6 +291,7 @@ textarea {
 
 .cas {
     position: relative;
+    height: 350px;
 }
 
 .gvc {
@@ -309,13 +311,13 @@ textarea {
 }
 
 .cas {
-    font-size: 14pt;
+    font-size: 18pt;
     text-align: justify;
     padding-top: 20px;
 }
 
 .bvv {
-    font-size: 16pt;
+    font-size: 18pt;
     padding: 0px 10px 10px 10px;
     font-family: lato;
     color: #000;
@@ -353,7 +355,7 @@ textarea {
 }
 
 .cgv {
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 .tl {
@@ -405,6 +407,7 @@ body {
 
 .fghh {
     padding-top: 100px;
+    min-height: 900px;
 }
 
 .sqr {
@@ -435,14 +438,14 @@ body {
 }
 
 .tsd {
-    font-size: 16pt;
+    font-size: 18pt;
     padding: 10px;
     font-weight: bold;
     color: #28AAA6;
 }
 
 .tsd2 {
-    font-size: 14pt;
+    font-size: 18pt;
     color: black;
     font-family: lato;
     text-align: justify;
@@ -469,7 +472,8 @@ body {
 }
 
 .bbtb {
-    margin: 20px;
+    margin: 50px 20px 20px 20px;
+    font-size: 18pt;
 }
 
 .qq {
@@ -495,7 +499,7 @@ body {
 }
 
 .zas {
-    height: 400px;
+    height: 500px;
 }
 
 .tsd2 li {
@@ -524,7 +528,7 @@ body {
 }
 
 .www {
-    min-height: 870px;
+    min-height: 1100px;
 }
 
 .jm {
@@ -537,7 +541,7 @@ body {
 }
 
 .z2 {
-    height: 300px;
+    height: 350px;
     width: 100%;
 }
 
@@ -545,7 +549,20 @@ body {
     border: 1px solid #ccc;
 }
 
-@media screen and (max-width: 480px) {
+.qwe,
+.qwe2 {
+    min-height: 600px;
+}
+
+.qwe3 {
+    min-height: 200px;
+}
+
+.cin {
+    height: 550px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
     .frt {
         margin-top: 160px;
         font-size: 26pt;
@@ -564,21 +581,17 @@ body {
         padding-bottom: 10px;
     }
     .kot {
-        min-height: 1200px;
-    }
-    .qwe,
-    .qwe2 {
-        min-height: 500px;
+        min-height: 1600px;
     }
     .ts {
-        font-size: 13pt;
+        font-size: 18pt;
         padding: 10px;
     }
     .jud {
-        font-size: 16pt;
+        font-size: 18pt;
     }
     .ecg {
-        font-size: 14pt;
+        font-size: 18pt;
     }
     .textt {
         padding: 0;
@@ -588,6 +601,18 @@ body {
     }
     .fga {
         height: 300px;
+    }
+    .qwe3 {
+        min-height: 400px;
+    }
+    .xcx {
+        height: 700px;
+    }
+    .xcx2 {
+        height: 400px;
+    }
+    body {
+        font-size: 15pt;
     }
 }
 
@@ -619,7 +644,7 @@ div#columns figure img {
 }
 
 div#columns figure figcaption {
-    font-size: 16pt;
+    font-size: 18pt;
     color: #444;
     line-height: 1.5;
     font-family: lato;
