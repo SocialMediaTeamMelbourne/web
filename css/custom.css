@@ -20,7 +20,7 @@
 
 .navb {
     background-color: #fff;
-    border-bottom: 4px solid #28AAA6;
+    border-bottom: 4px solid #04AFEE;
 }
 
 .carousel-indicators li,
@@ -125,7 +125,7 @@
 }
 
 .hra {
-    border-bottom: 2px solid #28AAA6;
+    border-bottom: 2px solid #04AFEE;
     width: 10%;
 }
 
@@ -153,12 +153,12 @@
 
 .ecg {
     padding: 20px;
-    border-left: 4px solid #28AAA6;
+    border-left: 4px solid #04AFEE;
     margin-bottom: 10px;
 }
 
 .ecg2 {
-    border-right: 4px solid #28AAA6;
+    border-right: 4px solid #04AFEE;
     border-left: 0;
 }
 
@@ -179,7 +179,7 @@
 
 .nmn {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: #28AAA6;
+    color: #04AFEE;
     text-align: right;
     font-weight: bold;
 }
@@ -192,7 +192,7 @@
 }
 
 .xc {
-    --background-color: #28AAA6;
+    --background-color: #04AFEE;
     height: 550px;
 }
 
@@ -302,12 +302,12 @@ textarea {
 .qwe {}
 
 .qwe2 {
-    background-color: rgba(40, 170, 166, 0.5);
+    background-color: rgba(4, 175, 238, 0.5);
     padding: 70px 0;
 }
 
 .bv {
-    color: #28AAA6;
+    color: #04AFEE;
 }
 
 .cas {
@@ -419,7 +419,7 @@ body {
 
 .service-icon {
     border-radius: 4px;
-    color: #28AAA6;
+    color: #04AFEE;
     display: inline-block;
     font-size: 36px;
     height: 90px;
@@ -441,7 +441,7 @@ body {
     font-size: 18pt;
     padding: 10px;
     font-weight: bold;
-    color: #28AAA6;
+    color: #04AFEE;
 }
 
 .tsd2 {
@@ -490,7 +490,7 @@ body {
 }
 
 .green {
-    background-color: rgba(40, 170, 166, 0.9);
+    background-color: rgba(4, 175, 238, 0.9);
 }
 
 .fgab {
@@ -581,7 +581,7 @@ body {
         padding-bottom: 10px;
     }
     .kot {
-        min-height: 1300px;
+        min-height: 1400px;
     }
     .ts {
         font-size: 18pt;
@@ -617,6 +617,15 @@ body {
     .new2 {
         width: 100%;
     }
+    .xcx {
+        min-height: 800px;
+    }
+    .xc {
+        min-height: 800px;
+    }
+    .cin {
+        min-height: 800px;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 499px) {
@@ -626,6 +635,18 @@ body {
     .new {
         display: none;
     }
+    .xcx {
+        min-height: 1000px;
+    }
+    .xc {
+        min-height: 1000px;
+    }
+    .cin {
+        min-height: 1000px;
+    }
+    .carousel-indicators {
+        top: 900px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 399px) {
@@ -634,6 +655,23 @@ body {
     }
     .new {
         display: none;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        width: 20px;
+        height: 20px;
+    }
+    .carousel-indicators {
+        top: 850px;
+    }
+    .xcx {
+        min-height: 900px;
+    }
+    .xc {
+        min-height: 900px;
+    }
+    .cin {
+        min-height: 900px;
     }
 }
 
