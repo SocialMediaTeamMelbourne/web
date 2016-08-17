@@ -478,11 +478,12 @@ body {
 
 .qq {
     padding: 20px;
-    min-height: 360px;
+    height: 360px;
 }
 
 .fga {
     padding: 0 0px;
+    height: 500px;
 }
 
 .zas input {
