@@ -478,11 +478,11 @@ body {
 
 .qq {
     padding: 20px;
+    min-height: 360px;
 }
 
 .fga {
     padding: 0 0px;
-    height: 350px;
 }
 
 .zas input {
@@ -600,7 +600,7 @@ body {
         display: none;
     }
     .fga {
-        height: 300px;
+        height: 500px;
     }
     .qwe3 {
         min-height: 400px;
