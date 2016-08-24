@@ -1,0 +1,22 @@
+.carousel-content {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#text-carousel {
+    width: 100%;
+    min-height: 380px;
+    padding: 50px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-content p {
+    font-size: 1.6em;
+    line-height: 170%;
+    color: #fff;
+}
