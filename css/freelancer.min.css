@@ -615,7 +615,7 @@
                 .itm3 {
                     padding: 50px;
                     text-align: center;
-                    min-height: 400px;
+                    min-height: 500px;
                     color: #fff;
                 }
                 
@@ -631,11 +631,12 @@
                     padding: 50px;
                     text-align: center;
                     color: #fff;
+                    min-height: 480px;
                 }
                 
                 .above2 {
                     position: relative;
-                    min-height: 395px;
+                    min-height: 380px;
                 }
                 
                 .above2 a {
@@ -809,10 +810,6 @@
                     border-top: 4px solid #fff;
                 }
                 
-                .sgl p {
-                    min-height: 300px;
-                }
-                
                 footer .footer-above {
                     background-color: #e24545;
                 }
@@ -822,7 +819,7 @@
                 }
                 
                 .sgl p {
-                    min-height: 300px;
+                    min-height: 360px;
                     text-align: justify;
                 }
                 
@@ -835,10 +832,9 @@
                 }
                 
                 #columns {
-                    column-width: 320px;
+                    column-width: 300px;
                     column-gap: 15px;
                     width: 90%;
-                    max-width: 1100px;
                     margin: 50px auto;
                 }
                 
@@ -854,7 +850,7 @@
                 }
                 
                 div#columns figure img {
-                    width: 100%;
+                    width: 300px;
                     height: auto;
                     border-bottom: 1px solid #ccc;
                     padding-bottom: 15px;
@@ -933,4 +929,75 @@
                     #text-carousel {
                         padding: 0px;
                     }
+                }
+                
+                @media screen and (max-width: 1122px) {
+                    .navbar-custom {
+                        font-size: 12px;
+                    }
+                }
+                
+                @media screen and (min-width:750px) and (max-width: 1207px) {
+                    .socmed {
+                        padding-top: 100px;
+                    }
+                    .bnn {
+                        margin: 0 auto;
+                    }
+                    .navbar-nav>li>a {
+                        padding: 15px 8px;
+                    }
+                    .asd {
+                        padding: 0;
+                    }
+                    .gg {
+                        width: 200px;
+                    }
+                }
+                
+                @media (max-width: 1023px) {
+                    .navbar-header {
+                        float: none;
+                    }
+                    .navbar-toggle {
+                        display: block;
+                    }
+                    .navbar-collapse {
+                        border-top: 1px solid transparent;
+                        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+                    }
+                    .navbar-collapse.collapse {
+                        display: none!important;
+                    }
+                    .navbar-nav {
+                        float: none!important;
+                        margin: 7.5px -15px;
+                    }
+                    .navbar-nav>li {
+                        float: none;
+                    }
+                    .navbar-nav>li>a {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                    .navbar-text {
+                        float: none;
+                        margin: 15px 0;
+                    }
+                    /* since 3.1.0 */
+                    .navbar-collapse.collapse.in {
+                        display: block!important;
+                    }
+                    .collapsing {
+                        overflow: hidden!important;
+                    }
+                }
+                
+                .ddf {
+                    display: inline-block;
+                    min-height: 150px;
+                }
+                
+                .ww {
+                    width: 100%;
                 }
